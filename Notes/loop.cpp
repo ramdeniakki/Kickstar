@@ -14,27 +14,56 @@
    cin => used to take user input
 */
 
+
+
+
 //  if statement
 
+/*
 
 #include<iostream>
 using namespace std;
 int main(){
    int age;
-   cout<<"Enter the age :";
+   cout<<"Enter the age: ";
+
    cin>>age;
-   if(age>=18){
-      cout<<" You can  enter the zoo"<<endl;
+
+
+    if(age<=18){
+      cout<<"You are too young to ride the bike";
+   }
+   else{
+      cout<<"You can ride the bike";
+   }
+}
+
+*/
+
+
+//  if else block statement
+
+/*
+#include<iostream>
+using namespace std;
+int main(){
+   int num;
+   cout<<"Enter the Number :";
+   cin>>num;
+   if(num>0){
+      cout<<"Number is Postive"<<endl;
 
    }
    else{
-      if(age<18){
-         cout<<"Sorry you cant enter the zoo because your tooo young"<<endl;
+      if(num<0){
+         cout<<"Number is Negative"<<endl;
 
       }
       else{
-             cout<<"Sorry you cant enter because your old";                                               
+             cout<<"Number is Zero ";                                               
       }
      
    }
 }
+
+*/
