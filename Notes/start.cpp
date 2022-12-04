@@ -7,6 +7,7 @@ using namespace std;
 // Standard Library
 
 //  Main Function
+
 int main()  { 
 
 /*
@@ -60,6 +61,8 @@ Logical Operator
 
 // Airthemic operator
 
+/*
+
 int a= 1;
 int b =2;
 
@@ -70,7 +73,12 @@ cout<<a/b<<endl;
 
 cout<<"Next line"<<endl;
 
+*/
+
 // Relational 
+
+/*
+
 int c =1;
 int d =2;
 
@@ -97,3 +105,5 @@ cout<<fifth<<endl;
 bool sixth = (a==b);
 cout<<sixth<<endl;
 }
+
+*/
