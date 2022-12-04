@@ -16,9 +16,25 @@
 
 //  if statement
 
+
 #include<iostream>
 using namespace std;
 int main(){
-    int a=1;
-    cout<<a<<endl;
+   int age;
+   cout<<"Enter the age :";
+   cin>>age;
+   if(age>=18){
+      cout<<" You can  enter the zoo"<<endl;
+
+   }
+   else{
+      if(age<18){
+         cout<<"Sorry you cant enter the zoo because your tooo young"<<endl;
+
+      }
+      else{
+             cout<<"Sorry you cant enter because your old";                                               
+      }
+     
+   }
 }
