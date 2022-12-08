@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 // This Stands for Standard input-output stream 
 
@@ -9,7 +10,7 @@ using namespace std;
 //  Main Function
 
 int main()  { 
-
+*/
 /*
     // integer
     int h =123;

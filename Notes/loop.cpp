@@ -1,12 +1,12 @@
 /*
-     
-     
+
+
      Conditional's && loops
 
 
   => if       --- to specify a block of code to be executed, if a specified condition is true
  =>  else     --- to specify a block of code to be executed, if the same condition is false
- =>  else     --- if to specify a new condition to test, if the first condition is false
+ =>  else if    --- if to specify a new condition to test, if the first condition is false
  =>  switch   --- to specify many alternative blocks of code to be executed
 
 
@@ -15,9 +15,6 @@
 /*
    cin => used to take user input
 */
-
-
-
 
 //  if statement
 
@@ -41,10 +38,7 @@ int main(){
 }
 
 */
-
-
 //  if else block statement
-
 /*
 #include<iostream>
 using namespace std;
@@ -62,10 +56,41 @@ int main(){
 
       }
       else{
-             cout<<"Number is Zero ";                                               
+             cout<<"Number is Zero ";
       }
-     
+
    }
 }
 
 */
+
+/*
+   If the condition evaluates to true , the code inside the while loop is executed.
+
+           while()
+           {
+
+           }
+
+*/
+
+/*
+ */
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+   int n;
+   cin >> n;
+   int i = 1;
+   while(i<=n)
+   {
+      cout<<i<< " ";
+      i= i+1;
+   }
+}
+*/
+
+// printing sum of n numbers 
+
